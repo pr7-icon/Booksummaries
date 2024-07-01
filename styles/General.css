@@ -76,4 +76,30 @@ body {
     font-weight: bold;
 }
 
- 
+.heading-shadow{
+ text-shadow: 2px 2px 4px red;
+}
+ .book-cover-shadow{
+  box-shadow: 0 4px 8px yellow, 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+ }
+
+ .whatsapp {
+  --s: 0.1em;   /* the thickness of the line */
+  --c: #2c4bff; /* the color */
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+.whatsapp:hover {--_p: 100%}
+.para_font{
+  font-family: 'Times New Roman', Times, serif;
+
+  font-size: 18px;
+}
